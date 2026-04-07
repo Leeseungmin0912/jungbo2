@@ -139,7 +139,12 @@ Windows 보안 이벤트 로그를 분석하고 의심스러운 로그인 흔적
 
 ## 실행 방법
 
-### 1. Python 실행
+### 1. Python 파일로 실행
+프로젝트의 `main2.py` 파일을 다운로드한 뒤 아래 명령어로 실행합니다.
+
 ```bash
-python main2.py or SLA.exe download
-파이썬 main2.py 파일을 다운로드 하셔서 실행하시거나 SLA.exe 파일을 다운로드 하여 실행해주세요
+python main2.py
+```
+### 2. exe 파일로 실행
+배포된 `SLA.exe` 파일을 다운로드한 뒤 바로 실행하면 됩니다.
+Python이 설치되어 있지 않아도 사용할 수 있습니다.
